@@ -1,0 +1,61 @@
+/* Set background color for the entire page */
+body {
+    background-color: #FFB6C1; /* Baby Pink */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+
+/* CSS for the figure and caption */
+figure {
+    text-align: center; /* Center aligns the image and caption */
+    margin-bottom: 20px; /* Adds margin at the bottom of all figures */
+}
+
+p {
+    margin-top: 10px; /* Adjust the top margin for captions */
+    font-style: Arial, sans-serif;
+    font-weight: bold; /* Optional: Apply italic style to the caption */
+}
+
+
+/* CSS styles for the gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 300px; /* Adjust width of each item */
+    height: 300px; /* Adjust height of each item */
+    overflow: hidden; /* Ensure square shape and hide overflow if necessary */
+    border: 2px solid #000; /* Optional: Add border for visual separation */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire box without distortion */
+}
+
+/* CSS styles for the languages section */
+.languages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.languages-item {
+    width: 100px; /* Fixed size for the logos */
+    height: 100px; /* Fixed size for the logos */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensure circular shape and hide overflow if necessary */
+}
+
+.languages-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire box without distortion */
+}
